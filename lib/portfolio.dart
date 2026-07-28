@@ -26,7 +26,7 @@ class Portfolio extends StatelessWidget {
                     BoxShadow(
                       color: Colors.black.withAlpha(13), // Subtle shadow (~0.05 opacity)
                       blurRadius: 15,
-                      offset: const Oqqffset(0, 5),
+                      offset: const Offset(0, 5),
                     ),
                   ],
                 ),
