@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/portfolio.dart';
+
+import 'firstlayout.dart';
 
 void main() {
   runApp(const MyWidget());
@@ -12,7 +13,7 @@ class MyWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Portfolio(),
+      home: LayoutPage(),
     );
   } // Added missing bracket for build method
 }   // Added missing bracket for MyWidget class
